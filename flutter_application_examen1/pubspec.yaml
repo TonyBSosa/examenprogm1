@@ -21,3 +21,6 @@ flutter:
  
   assets:
     - assets/images/Noticias.jpg
+    - assets/images/Teleton.jpg
+    - assets/images/terapias.jpg
+    - assets/images/arboles.jpg

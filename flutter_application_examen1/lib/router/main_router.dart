@@ -17,7 +17,7 @@ final mainRouter = GoRouter (
     ),
      GoRoute( 
     path: '/noticias',
-    builder: (context, state)=> const noticias(),
+    builder: (context, state)=> const Noticias(),
     
        ),
  GoRoute( 
