@@ -29,7 +29,7 @@ final mainRouter = GoRouter (
        
         GoRoute( 
     path: '/listas',
-    builder: (context, state)=> const listas(),
+    builder: (context, state)=> const Listas(),
     
        ),
 
