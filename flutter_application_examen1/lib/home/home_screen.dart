@@ -25,19 +25,19 @@ class HomeScreen extends StatelessWidget {
             ListTile(
               title: const Text('Noticias'),
               onTap: () {
-                context.push('/HistorialCiclos');
+                context.push('/noticias');
               },
             ),
             ListTile(
-              title: const Text('cambio de moneda'),
+              title: const Text('Cambio de moneda'),
               onTap: () {
-                context.push('/HistorialDatos');
+                context.push('/moneda');
               },
             ),
             ListTile(
               title: const Text('Lista de tareas'),
               onTap: () {
-                context.push('/pedidos');
+                context.push('/listas');
               },
             ),
           ],
@@ -46,3 +46,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+

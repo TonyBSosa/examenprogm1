@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 
-class HistorialCiclos extends StatelessWidget {
-  const HistorialCiclos({super.key});
+class noticias extends StatelessWidget {
+  const noticias({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class HomeContent extends StatelessWidget {
@@ -6,16 +5,15 @@ class HomeContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     return const Center(
-        child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Icon(Icons.document_scanner),
-        SizedBox(height: 10),
-        Text('Posibles Widgets:  '),
-        SizedBox(height: 10),
-        Text('/noticias/'),
-      ],
-    ));
+     return Scaffold(
+      appBar: AppBar( 
+        title: const Text('Home'),
+
+        ),
+        body:  const Center (
+          child: Image (image: AssetImage ('assets/images/Noticias.jpg'
+        ),
+      ))
+    );
   }
 }
