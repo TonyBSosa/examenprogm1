@@ -5,15 +5,16 @@ class HomeContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     return Scaffold(
-      appBar: AppBar( 
-        title: const Text('Home'),
-
+    return Column(
+      children: [
+        SizedBox(height: 50), // Espacio en la parte superior
+        Expanded(
+          child: Image.asset(
+            'assets/images/Noticias.jpg',
+            fit: BoxFit.cover, // Asegura que la imagen se ajuste al tamaño del widget
+          ),
         ),
-        body:  const Center (
-          child: Image (image: AssetImage ('assets/images/Noticias.jpg'
-        ),
-      ))
+      ],
     );
   }
 }

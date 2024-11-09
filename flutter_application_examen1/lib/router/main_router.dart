@@ -16,20 +16,20 @@ final mainRouter = GoRouter (
     
     ),
      GoRoute( 
-    path: '/HistorialCiclos',
-    builder: (context, state)=> const HistorialCiclos(),
+    path: '/noticias',
+    builder: (context, state)=> const noticias(),
     
        ),
  GoRoute( 
-    path: '/HistorialDatos',
-    builder: (context, state)=> const HistorialDatos(),
+    path: '/moneda',
+    builder: (context, state)=> const moneda(),
     
        ),
  
        
         GoRoute( 
-    path: '/Pedidos',
-    builder: (context, state)=> const Pedidos(),
+    path: '/listas',
+    builder: (context, state)=> const listas(),
     
        ),
 
