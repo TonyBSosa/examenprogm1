@@ -7,11 +7,11 @@ class HomeContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(height: 50), // Espacio en la parte superior
+        SizedBox(height: 50),  
         Expanded(
           child: Image.asset(
             'assets/images/Noticias.jpg',
-            fit: BoxFit.cover, // Asegura que la imagen se ajuste al tamaño del widget
+            fit: BoxFit.cover,  
           ),
         ),
       ],

@@ -1,0 +1,23 @@
+[
+    {
+      "titulo": "Foro de discusión: 'Impacto de la IA en la educación'",
+      "descripcion": "Fecha límite: 15 de noviembre",
+      "completado": false
+    },
+    {
+      "titulo": "Tarea 1: 'Cálculo diferencial'",
+      "descripcion": "Fecha límite: 17 de noviembre",
+      "completado": false
+    },
+    {
+      "titulo": "Examen de 'Estructuras de datos'",
+      "descripcion": "Fecha: 20 de noviembre",
+      "completado": false
+    },
+    {
+      "titulo": "Entrega de proyecto final: 'Aplicación móvil'",
+      "descripcion": "Fecha límite: 25 de noviembre",
+      "completado": false
+    }
+  ]
+  
